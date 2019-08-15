@@ -2,9 +2,13 @@ QDC "Quasi-Definitive Compare"
 =============================
 
 Application QDC
+
 Version     0.1.0
+
 Author      Peter Crosthwaite; for INTERMAGNET http:://www.intermagnet.org
+
 Copyright   Geoscience Australia
+
 
 QDC reports statistics of the difference between DataSetA and
 DataSetB, where DataSetA and DataSetB are geomagnetic observatory 1-minute
@@ -18,34 +22,60 @@ for some further discussion.
 Usage
 -----
 QDC
-<<Command Line options>>:
-  -? [ --help ]               Show all help (version, usage, about, example)
-  --version                   Show version of this program
-  --usage                     Show how to invoke this program
-  --about                     Show information about this program
-  --example                   Show an example invocation of this program
-  -E [ --environment ] arg    Use prefixed environment variables
+Command Line options:
 
-<<General options>>:
+  -? [ --help ]               Show all help (version, usage, about, example)
+  
+  --version                   Show version of this program
+  
+  --usage                     Show how to invoke this program
+  
+  --about                     Show information about this program
+  
+  --example                   Show an example invocation of this program
+  
+  -E [ --environment ] arg    Use prefixed environment variables
+  
+
+General options:
   -F [ --configuration ] arg  Use configuration file
+  
   -a [ --dsa ] arg            data set A source file format:filename
+  
   -b [ --dsb ] arg            data set B source file format:filename
+  
   --ByDayByAll                Report data By Day By All
+  
   --ByDayByMonthByAll         Report data By Day By Month By All
+  
   --ByDayByMonthByYearByAll   Report data By Day By Month By Year By All
+  
   --ByDayByYearByAll          Report data By Day By Year All
+  
   --ByMonthByAll              Report data By Month By All
+  
   --ByMonthByYearByAll        Report data By Month By Year By All
+  
   --ByYearByAll               Report data By Year By All
+  
   --ByDayByYear               Report data By Day By Year
+  
   --ByDayByMonthByYear        Report data By Day By Month By Year
+  
   --ByMonthByYear             Report data By Month By Year
+  
   --ByDayByMonth              Report data By Day By Month
+  
   --ByDay                     Report data By Day
+  
   --ByMonth                   Report data By Month
+  
   --ByYear                    Report data By Year
+  
   --ByAll                     Report data By All
+  
   -x [ --XYZ ]                Compare in XYZ
+  
 
 About
 -----
